@@ -1,0 +1,23 @@
+---
+title: 'Assignment 1 Approach: Titanic Dataset'
+author: "Ummay Rukiya"
+date: "2026-09-03"
+output: html_document
+---
+## Dataset Source
+
+For this assignment, I plan to use the [Titanic dataset from the Seaborn public GitHub repository](https://github.com/mwaskom/seaborn-data/blob/master/titanic.csv). The dataset is available as a public CSV file, which will allow the R code to load it directly from the internet.
+
+## Dataset Description
+
+The dataset contains information about 891 Titanic passengers, including whether each passenger survived, passenger class, sex, age, fare, family relationships, and embarkation location. The `survived` column will be treated as the target variable.
+
+## Motivation and Planned Approach
+
+I selected this dataset because I am interested in understanding how passenger characteristics may relate to survival. For the Code Base deliverable, I plan to load the dataset into R, select a useful subset of columns, rename abbreviated columns, and replace the numerical survival values with understandable labels.
+
+## Anticipated Data Challenges
+
+Some passenger information, particularly age and deck, is missing. I will select columns carefully and make sure that the final column names and values are clear and meaningful.
+
+
